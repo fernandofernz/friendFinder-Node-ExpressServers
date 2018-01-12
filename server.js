@@ -15,5 +15,5 @@ var htmlRouter = require("./app/routing/htmlRoutes");
 htmlRouter(app);
 
 app.listen(PORT, function() {
-    console.log("Server is listening on PORT: " + PORT);
-  });
+  console.log("Server is listening on PORT: " + PORT);
+});
